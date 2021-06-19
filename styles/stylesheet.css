@@ -10,7 +10,7 @@ div {
 }
 
 h1 {
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
 }
 
 .multi {
@@ -23,18 +23,28 @@ h1 {
     width: 50%;
 }
 
+.food_column{
+    float:  left;
+    width: 25%;
+}
+
+.clear{
+    clear: both;
+}
+
 #ingredients {
     /*float: left;*/
-    background:  mediumseagreen;
+    /*background:  mediumseagreen;*/
     width: 40%;
 }
 
 #prep {
     /*padding-left: 6em;
     width: 90%;*/
-    background: radial-gradient(black, grey, white, purple);
+    /*background: radial-gradient(black, grey, white, purple);*/
     width: 60%;
 }
+
 
 
 body {
