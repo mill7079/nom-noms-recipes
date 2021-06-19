@@ -1,3 +1,45 @@
-﻿/*body {
+body {
+    font-size: 1.05em;
     background: linear-gradient(#55FFFF, #FADBEB, #FFFFFF, #FADBEB, #55FFFF);
-}*/
+}
+
+div {
+    /*debugging*/
+    /*background-color: aqua;*/
+    /*width: 50%;*/
+}
+
+h1 {
+    background-color: blueviolet;
+}
+
+.multi {
+    /*column-count: 2;*/
+    /*column-width: 15em;*/
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+#ingredients {
+    /*float: left;*/
+    background:  mediumseagreen;
+    width: 40%;
+}
+
+#prep {
+    /*padding-left: 6em;
+    width: 90%;*/
+    background: radial-gradient(black, grey, white, purple);
+    width: 60%;
+}
+
+
+body {
+    /*font-family: 'Power Green';*/
+    /*font-family: 'Power Red and Blue';*/
+    font-family: 'Power Red and Green';
+    /*font-size: 1em;*/
+}
