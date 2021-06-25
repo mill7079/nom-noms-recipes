@@ -74,3 +74,8 @@ h1 {
     /*background: radial-gradient(black, grey, white, purple);*/
     width: 60%;
 }
+
+img.resize {
+  max-width:25%;
+  max-height:25%;
+}
