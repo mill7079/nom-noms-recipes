@@ -1,45 +1,26 @@
-.trans {
+/*.trans {
     background: linear-gradient(#55FFFF, #FADBEB, #FFFFFF, #FADBEB, #55FFFF);
 }
 
-.nb {
+.nb {*/
     /*background: linear-gradient(#FFF430, white, #9C59D1, #000000);*/
-    background: linear-gradient(#FFF652, white, #BE7BF3, #222222);
+    /*background: linear-gradient(#FFF652, white, #BE7BF3, #222222);
 }
 
-.bi {
+.bi {*/
     /*background: linear-gradient(#d00070, #d00070, #8c4799, #0032a0, #0032a0);*/
-    background: linear-gradient(#F22292, #F22292, #AE69BB, #2254C2, #2254C2);  /*A bit lighter than the actual version*/
-}
+    /*background: linear-gradient(#F22292, #F22292, #AE69BB, #2254C2, #2254C2);*/  /*A bit lighter than the actual version*/
+/*}
 
-.ace {
+.ace {*/
     /*background: linear-gradient(black, #A4A4A4, white, #810081);*/
-    background: linear-gradient(#222222, #C6C6C6, white, #A322A3);
+    /*background: linear-gradient(#222222, #C6C6C6, white, #A322A3);
 }
 
-.aro {
+.aro {*/
     /*background: linear-gradient(#3AA63F, #A8D47A, white, #AAAAAA, black);*/
-    background: linear-gradient(#5CC85F, #CAF69C, white, #CCCCCC, #222222);
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-div {
-    /*debugging*/
-    /*background-color: aqua;*/
-    /*width: 50%;*/
-}
-
-h1 {
-    /*background-color: blueviolet;*/
-}
-
-.multi {
-    /*column-count: 2;*/
-    /*column-width: 15em;*/
-}
+    /*background: linear-gradient(#5CC85F, #CAF69C, white, #CCCCCC, #222222);
+}*/
 
 .column {
     float: left;
@@ -47,7 +28,7 @@ h1 {
 }
 
 .food_column{
-    float:  left;
+    float: left;
     width: 25%;
 }
 
@@ -56,16 +37,12 @@ h1 {
 }
 
 #ingredients {
-    /*float: left;*/
-    /*background:  mediumseagreen;*/
     width: 40%;
 }
 
 #prep {
-    /*padding-left: 6em;
-    width: 90%;*/
-    /*background: radial-gradient(black, grey, white, purple);*/
     width: 60%;
+    line-height: 1.2;
 }
 
 img.resize {
@@ -74,17 +51,8 @@ img.resize {
 }
 
 body {
-    /*background: linear-gradient(#55FFFF, #FADBEB, #FFFFFF, #FADBEB, #55FFFF);*/
-    /*fonts*/
     font-size: 1.05em;
-    /*font-family: 'Power Green';*/
-    /*font-family: 'Power Red and Blue';*/
     font-family: 'Power Red and Green';
-    /*font-size: 1em;*/
-
-    /*make gradients stop repeating*/
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+/*    font-family: 'Power Green';
+    font-family: 'Power Red and Blue';*/
 }
