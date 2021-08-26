@@ -1,14 +1,3 @@
-body {
-    /*background: linear-gradient(#55FFFF, #FADBEB, #FFFFFF, #FADBEB, #55FFFF);*/
-
-    /*fonts*/
-    font-size: 1.05em;
-    /*font-family: 'Power Green';*/
-    /*font-family: 'Power Red and Blue';*/
-    font-family: 'Power Red and Green';
-    /*font-size: 1em;*/
-}
-
 .trans {
     background: linear-gradient(#55FFFF, #FADBEB, #FFFFFF, #FADBEB, #55FFFF);
 }
@@ -31,6 +20,10 @@ body {
 .aro {
     /*background: linear-gradient(#3AA63F, #A8D47A, white, #AAAAAA, black);*/
     background: linear-gradient(#5CC85F, #CAF69C, white, #CCCCCC, #222222);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 div {
@@ -78,4 +71,20 @@ h1 {
 img.resize {
   max-width:25%;
   max-height:25%;
+}
+
+body {
+    /*background: linear-gradient(#55FFFF, #FADBEB, #FFFFFF, #FADBEB, #55FFFF);*/
+    /*fonts*/
+    font-size: 1.05em;
+    /*font-family: 'Power Green';*/
+    /*font-family: 'Power Red and Blue';*/
+    font-family: 'Power Red and Green';
+    /*font-size: 1em;*/
+
+    /*make gradients stop repeating*/
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
