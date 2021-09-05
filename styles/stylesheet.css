@@ -24,20 +24,23 @@
 
 .queer {
     /*    background: linear-gradient(black, );*/
-    /*    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    /*        background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
         linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
         linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);*/
-    background: linear-gradient(
-                    black,
-                    rgba(169,214,238,1),
-                    rgba(71,162,230,1),
-                    rgba(193,226,82,1),
+        background: linear-gradient(
+                    rgba(0,0,0,.9),
+                    rgba(169,214,238,.9),
+                    rgba(71,162,230,.9),
+                    rgba(193,226,82,.9),
                     white,
-                    rgba(243,204,71,1),
-                    rgba(232,113,102,1),
-                    rgba(240,177,203,1),
-                    black
-    );
+                    rgba(243,204,71,.9),
+                    rgba(232,113,102,.9),
+                    rgba(240,177,203,.9),
+                    rgba(0,0,0,.9)
+        );
+        height: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
 }
 
 .column {
